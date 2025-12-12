@@ -126,24 +126,19 @@ const contactForm = document.getElementById('contact-form');
 
 if (contactForm) {
     contactForm.addEventListener('submit', (e) => {
-        e.preventDefault();
-        
-        // Obtener valores
+        // Validación básica antes de enviar
         const name = document.getElementById('name').value;
         const email = document.getElementById('email').value;
-        const phone = document.getElementById('phone').value;
         const message = document.getElementById('message').value;
         
-        // Validación básica
         if (!name || !email || !message) {
+            e.preventDefault();
             showAlert('Por favor, completa todos los campos requeridos.', 'error');
             return;
         }
         
-        // Aquí puedes agregar la lógica para enviar el formulario
-        // Por ahora, solo mostramos un mensaje de éxito
-        showAlert('¡Mensaje enviado con éxito! Nos pondremos en contacto pronto.', 'success');
-        contactForm.reset();
+        // Si la validación pasa, el formulario se envía a FormSubmit automáticamente
+        // No usamos e.preventDefault() para permitir el envío
     });
 }
 
