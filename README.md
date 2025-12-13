@@ -4,7 +4,7 @@ Página web profesional para GV CONSTRUCCIONES SPA, empresa líder en construcci
 
 ## 🌐 Ver en Vivo
 
-👉 **[Ver Sitio Web](https://vlkair.github.io/PaginaWeb-cliente/)**
+👉 **[Ver Sitio Web](https://vlkair.github.io/GvConstruccionesSPA/)**
 
 ---
 
@@ -161,7 +161,7 @@ El formulario está integrado con **FormSubmit.co** y envía mensajes directamen
 1. Ve a **Settings > Pages** en tu repositorio
 2. Selecciona branch `main` y carpeta `/ (root)`
 3. Guarda y espera 1-2 minutos
-4. Tu sitio estará en: `https://vlkair.github.io/PaginaWeb-cliente/`
+4. Tu sitio estará en: `https://vlkair.github.io/GvConstruccionesSPA/`
 
 ### Para actualizar tu sitio:
 ```bash
@@ -257,7 +257,7 @@ Este proyecto está diseñado para uso de **GV CONSTRUCCIONES SPA**.
 **GV CONSTRUCCIONES SPA**
 - 📧 Email: geoconstructor2025@gmail.com
 - 📱 WhatsApp: +56 9 6803 5766
-- 🌐 Web: https://vlkair.github.io/PaginaWeb-cliente/
+- 🌐 Web: https://vlkair.github.io/GvConstruccionesSPA/
 - 📍 Cobertura: Todo Chile
 
 ## 🎨 Paleta de Colores
